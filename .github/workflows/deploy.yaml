@@ -48,7 +48,7 @@ jobs:
 
   apptainer-rftrack:
     name: alma9 rf-track apptainer
-    needs: [docker-rfrack]
+    needs: [docker-rftrack]
     runs-on: ubuntu-latest
 
     strategy:
